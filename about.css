@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.column {
+  float: left;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 8px 8px;
+}
+
+.card {
+  box-shadow: 10px 10px lightblue;
+  margin: 8px 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container:after, .row:after {
+  content: "";
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.card:nth-child(1) {
+	background-size:cover;
+}

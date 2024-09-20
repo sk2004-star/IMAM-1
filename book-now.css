@@ -1,0 +1,19 @@
+.navbar {
+	width: 100%;
+  overflow: auto;
+  background-color: #F7F94E;
+  text-align:center;
+  color:red;
+  font-size:30px;
+  height:130px;
+}
+
+.header {
+	padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: blue;
+  background-image:url('book.gif');
+  background-size:cover;
+  height:600px;
+}
